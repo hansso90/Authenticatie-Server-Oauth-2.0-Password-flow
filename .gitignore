@@ -12,7 +12,6 @@
 *.ipr
 *.iws
 .idea/
-fixMavenProjects.sh
 
 ### Eclipse ###
 *.pydevproject
@@ -31,9 +30,6 @@ local.properties
 .settings/
 .loadpath
 
-### Configuration screenit ###
-AbstractScreenitFillDB.java
-jetty-app.config.xml
 
 # External tool builders
 .externalToolBuilders/
@@ -55,13 +51,4 @@ target/
 /target
 
 # Generated #
-generated/
-generated-cda/
-ehcache.disk.store.dir
 /bin/
-
-screenit-base/etc/liquibase/db.changelog-gen.sql
-*db.changelog-gen.sql
-*db.changelog.xml
-*.orig
-screenit-webservice-broker/id_file
